@@ -1,0 +1,144 @@
+/* Invoice Container */
+  .invoice-container {
+    width: 800px; /* Adjust width as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Invoice Header */
+  .invoice-header {
+    text-align: centerr;
+    margin-bottom: 20px;
+  }
+
+  .invoice-logo {
+    max-width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  /* Invoice Details */
+  .invoice-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .invoice-details > div {
+    width: 45%;
+  }
+  
+  /* Billing To */
+  .billing-to {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Invoice Number and Date */
+  .invoice-number,
+  .invoice-date {
+    text-align: right;
+  }
+  
+  /* Product Table */
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Added margin-top for better spacing */
+  }
+  
+  .product-table th,
+  .product-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Subtotal, Tax, and Total */
+  .totals {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  /* Invoice Footer */
+  .invoice-footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Manager Signature */
+  .manager-signature {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Contact Information */
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  /* Specific Styles for the Invoice */
+  
+  /* Logo */
+  .invoice-logo img {
+    max-width: 100%;
+  }
+  
+  /* Product Table */
+  .product-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Totals */
+  .totals span {
+    font-weight: bold;
+  }
+  
+  /* Manager Signature */
+  .manager-signature img {
+    max-width: 100px;
+
+  }
+  
+  /* Contact Information */
+  .contact-info p {
+    margin: 0;
+  }
+  
+  /* Invoice Number and Due Date Positioning */
+  .invoice-number,
+  .invoice-date {
+    margin-bottom: 10px; /* Added for spacing consistency */
+  }
+  
+  /* Billing To Section - Address Formatting */
+  .billing-to p {
+    margin-bottom: 5px; /* Added for line breaks between address lines */
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .suggestions-list {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: white;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 1000;
+  }
+  
+  .suggestions-list li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .suggestions-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
